@@ -5,6 +5,9 @@
 
 sys-whonix anon-whonix allow
 whonix-gw anon-whonix allow
+whonix-gw-14 anon-whonix allow
 whonix-ws anon-whonix allow
+whonix-ws-14 anon-whonix allow
+$tag:whonix-updatevm $default allow,target=anon-whonix
 $anyvm	$dispvm	allow
 $anyvm	$anyvm	ask
